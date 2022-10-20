@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --clr-white: #fff;
+
+  --primary-clr-900: #001a57;
+  --primary-clr-800: #00308f;
+  --primary-clr-600: #0059f7;
+  --primary-clr-300: #689eff;
+  --primary-clr-100: rgba(0, 89, 247, 0.16);
+
+  --secondary-clr-900: #66240a;
+  --secondary-clr-800: #c34b1e;
+  --secondary-clr-600: #f9724d;
+  --secondary-clr-300: #fbb6ab;
+  --secondary-clr-100: #fef1ef;
+
+  --neutral-clr-900: #070e27;
+  --neutral-clr-800: #081131;
+  --neutral-clr-700: #162044;
+  --neutral-clr-600: #4e5a85;
+  --neutral-clr-600-opacity: rgba(78, 90, 133, 0.2);
+  --neutral-clr-500: #7e8bb6;
+  --neutral-clr-300: #ccd2e9;
+
+  --primary-px: 190px;
+  --primary-px-mini: 80px;
+}
+
+body {
+  font-family: 'Sora', monospace;
+  background-color: var(--neutral-clr-900);
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.btn {
+  --background-clr: var(--neutral-clr-600);
+  --text-clr: var(--clr-white);
+
+  background-color: var(--background-clr);
+  color: var(--text-clr);
+
+  width: fit-content;
+  cursor: pointer;
+  padding: 20px 24px;
+  border-radius: 8px;
+  border: none;
+  transition: all 300ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--text-clr);
+  color: var(--background-clr);
+}

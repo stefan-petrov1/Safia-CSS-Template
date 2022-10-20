@@ -1,0 +1,36 @@
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  width: 104px;
+  height: 32px;
+}
+
+.header {
+  border-bottom: 1px solid var(--neutral-clr-600-opacity);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--primary-px-mini);
+  height: 104px;
+}
+
+.nav__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nav .btn.btn--login {
+  --background-clr: var(--neutral-clr-700);
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
