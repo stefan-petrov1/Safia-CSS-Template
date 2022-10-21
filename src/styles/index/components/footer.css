@@ -36,3 +36,7 @@
   align-items: center;
   gap: 24px;
 }
+
+#footer .footer__terms > * {
+  cursor: pointer;
+}
