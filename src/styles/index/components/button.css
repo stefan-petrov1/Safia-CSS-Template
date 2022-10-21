@@ -1,0 +1,31 @@
+.btn {
+  --background-clr: var(--neutral-clr-600);
+  --text-clr: var(--clr-white);
+
+  background-color: var(--background-clr);
+  color: var(--text-clr);
+
+  width: fit-content;
+  cursor: pointer;
+  padding: 20px 24px;
+  border-radius: 8px;
+  border: none;
+  transition: all 300ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--text-clr);
+  color: var(--background-clr);
+}
+
+.btn--primary {
+  --background-clr: var(--primary-clr-600);
+}
+
+.btn--secondary {
+  --background-clr: var(--neutral-clr-700);
+}
+
+.btn--tertiary {
+  --background-clr: var(--primary-clr-300);
+}

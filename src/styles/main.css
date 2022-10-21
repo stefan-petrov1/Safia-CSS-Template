@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 
+/* Variables */
+
 :root {
   --clr-white: #fff;
 
@@ -27,6 +29,8 @@
   --primary-px-mini: 80px;
 }
 
+/* Default Values */
+
 body {
   font-family: 'Sora', monospace;
   background-color: var(--neutral-clr-900);
@@ -34,22 +38,70 @@ body {
   margin: 0 auto;
 }
 
-.btn {
-  --background-clr: var(--neutral-clr-600);
-  --text-clr: var(--clr-white);
-
-  background-color: var(--background-clr);
-  color: var(--text-clr);
-
-  width: fit-content;
-  cursor: pointer;
-  padding: 20px 24px;
-  border-radius: 8px;
-  border: none;
-  transition: all 300ms ease-in-out;
+.divider {
+  border-bottom: 1px solid var(--neutral-clr-600-opacity);
+  width: 100%;
 }
 
-.btn:hover {
-  background-color: var(--text-clr);
-  color: var(--background-clr);
+/* Typography */
+
+.hero-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: -0.03em;
+}
+
+.hero-title,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.03em;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+
+.body-large {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+}
+
+.caption {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }

@@ -10,10 +10,6 @@
   height: 32px;
 }
 
-.header {
-  border-bottom: 1px solid var(--neutral-clr-600-opacity);
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -27,10 +23,4 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
-
-.nav .btn.btn--login {
-  --background-clr: var(--neutral-clr-700);
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
