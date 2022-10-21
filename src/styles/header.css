@@ -1,16 +1,16 @@
-.header {
+#header {
   position: relative;
   top: 0;
   left: 0;
   right: 0;
 }
 
-.logo {
+#header .logo {
   width: 104px;
   height: 32px;
 }
 
-.nav {
+#header .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +18,7 @@
   height: 104px;
 }
 
-.nav__item {
+#header .nav__item {
   display: flex;
   align-items: center;
   justify-content: center;
