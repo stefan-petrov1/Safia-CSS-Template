@@ -29,3 +29,7 @@
 .btn--tertiary {
   --background-clr: var(--primary-clr-300);
 }
+
+.btn--quaternary {
+  --background-clr: var(--neutral-clr-600);
+}
